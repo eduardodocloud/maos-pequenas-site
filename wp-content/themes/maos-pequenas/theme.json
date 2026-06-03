@@ -1,0 +1,72 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        { "slug": "azul",        "color": "#006098", "name": "Azul Mãos Pequenas" },
+        { "slug": "azul-escuro", "color": "#004E7C", "name": "Azul Escuro" },
+        { "slug": "azul-claro",  "color": "#2F8FCB", "name": "Azul Claro" },
+        { "slug": "azul-pale",   "color": "#E6F1F8", "name": "Azul Suave" },
+        { "slug": "amarelo",     "color": "#F8F010", "name": "Amarelo Mãos Pequenas" },
+        { "slug": "amarelo-d",   "color": "#D8D000", "name": "Amarelo Escuro" },
+        { "slug": "amarelo-pale","color": "#FFFCE0", "name": "Amarelo Suave" },
+        { "slug": "branco",      "color": "#FFFFFF", "name": "Branco" },
+        { "slug": "cinza-claro", "color": "#F7F8FA", "name": "Cinza Claro" },
+        { "slug": "texto",       "color": "#1A202C", "name": "Texto Principal" },
+        { "slug": "texto-med",   "color": "#4A5568", "name": "Texto Secundário" }
+      ],
+      "custom": false,
+      "customDuotone": false,
+      "customGradient": false
+    },
+    "typography": {
+      "customFontSize": false,
+      "fontFamilies": [
+        {
+          "fontFamily": "'Nunito', 'Segoe UI', Arial, sans-serif",
+          "name": "Nunito (Títulos)",
+          "slug": "nunito"
+        },
+        {
+          "fontFamily": "'Open Sans', 'Segoe UI', Arial, sans-serif",
+          "name": "Open Sans (Corpo)",
+          "slug": "open-sans"
+        }
+      ],
+      "fontSizes": [
+        { "slug": "small",   "size": "0.875rem", "name": "Pequeno" },
+        { "slug": "medium",  "size": "1rem",     "name": "Médio" },
+        { "slug": "large",   "size": "1.25rem",  "name": "Grande" },
+        { "slug": "x-large", "size": "1.75rem",  "name": "Extra Grande" },
+        { "slug": "huge",    "size": "2.5rem",   "name": "Enorme" }
+      ]
+    },
+    "spacing": {
+      "units": ["px", "rem", "%"]
+    },
+    "layout": {
+      "contentSize": "860px",
+      "wideSize":    "1180px"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#FFFFFF",
+      "text":       "#1A202C"
+    },
+    "typography": {
+      "fontFamily": "'Open Sans', 'Segoe UI', Arial, sans-serif",
+      "fontSize":   "1rem",
+      "lineHeight": "1.7"
+    },
+    "elements": {
+      "link": {
+        "color": { "text": "#006098" }
+      },
+      "h1": { "typography": { "fontFamily": "'Nunito', 'Segoe UI', Arial, sans-serif", "fontWeight": "800" } },
+      "h2": { "typography": { "fontFamily": "'Nunito', 'Segoe UI', Arial, sans-serif", "fontWeight": "700" } },
+      "h3": { "typography": { "fontFamily": "'Nunito', 'Segoe UI', Arial, sans-serif", "fontWeight": "700" } }
+    }
+  }
+}
