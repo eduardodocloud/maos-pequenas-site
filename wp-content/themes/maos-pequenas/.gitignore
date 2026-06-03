@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Local environment
+.env
+.env.local
+
+# WordPress upload artifacts (não comitar uploads do site)
+wp-content/uploads/
+
+# Backups
+*.bak
+*.orig
+
+# Built artifacts (não há por enquanto)
+node_modules/
+dist/
