@@ -501,7 +501,14 @@ ul { list-style: none; }
   gap: 28px;
   margin-top: 48px;
 }
-/* Campanhas: 3 cards (era 4, Thabata removida) — usa o grid padrão de 3 colunas */
+/* Campanhas: 4 cards (Agasalho, Natal, Cestas, NF Paulista) — 4 colunas */
+.campanhas .how-grid { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 1024px) {
+  .campanhas .how-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .campanhas .how-grid { grid-template-columns: 1fr; }
+}
 .how-card {
   background: var(--branco);
   border-radius: var(--radius);
