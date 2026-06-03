@@ -501,8 +501,7 @@ ul { list-style: none; }
   gap: 28px;
   margin-top: 48px;
 }
-/* Quando tem 4 cards (ex: campanhas), usa 4 colunas */
-.campanhas .how-grid { grid-template-columns: repeat(4, 1fr); }
+/* Campanhas: 3 cards (era 4, Thabata removida) — usa o grid padrão de 3 colunas */
 .how-card {
   background: var(--branco);
   border-radius: var(--radius);
